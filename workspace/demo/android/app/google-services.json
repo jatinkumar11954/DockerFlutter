@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "996271471921",
+    "project_id": "athomepartner",
+    "storage_bucket": "athomepartner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996271471921:android:1a9d05ef61b6b60728c410",
+        "android_client_info": {
+          "package_name": "com.athome.partnerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996271471921-trjk3enc0c5rt1njv5tb6dq6u0u3rpmd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.athome.partnerapp",
+            "certificate_hash": "9f61439aeef80f911e067996866d43e0d098d088"
+          }
+        },
+        {
+          "client_id": "996271471921-nvmdsoulffm8j7jrpqduais504r6vlf1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEjn3ES2ipPviVFA2MjGuLFD0w-MtGj14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996271471921-nvmdsoulffm8j7jrpqduais504r6vlf1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
