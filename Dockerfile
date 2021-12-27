@@ -7,8 +7,9 @@ RUN apt update && apt install -y curl git unzip xz-utils zip libglu1-mesa openjd
 RUN useradd -ms /bin/bash developer
 USER developer
 WORKDIR /home/developer
-RUN touch text.txt
-COPY ./workspace/demo/* /home/developer/.
+RUN touch text.txt && mkdir demo
+COPY ./workspace/demo/* /home/developer/demo/
+RUN ls && ls ./demo
 #RUN wget -O azcopy_v10.tar.gz https://aka.ms/downloadazcopy-v10-linux
 #RUN tar -xf azcopy_v10.tar.gz --strip-components=1 && ls -al
 #RUN ls && ./azcopy
