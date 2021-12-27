@@ -33,7 +33,7 @@ RUN cd /home/developer/flutter && git checkout 2.0.6
 ENV PATH "$PATH:/home/developer/flutter/bin"
    
 # Run basic check to download Dark SDK
-RUN flutter doctor
-RUN git clone https://printcoder@dev.azure.com/printcoder/dockerFlutter/_git/dockerFlutter
+RUN flutter doctor && mkdir demo
+COPY ./workspace/demo/* .
 RUN ls
-RUN cd dockerFlutter/workspace/demo && flutter pub get && flutter build apk
+RUN cd demo && flutter pub get && flutter build apk
